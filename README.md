@@ -1,5 +1,4 @@
-# OpenfirePluginSample
-# Custom Plugin for Openfire.
+# Openfire Plugin Sample
 
 [![Twitter](https://img.shields.io/badge/Twitter-@saveendhiman-blue.svg?style=flat)](https://twitter.com/saveendhiman)
 

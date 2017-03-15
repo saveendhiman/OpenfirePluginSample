@@ -4,6 +4,8 @@
 
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
+This is Openfire Custom plugin sample.It help to communicate between my mysql db and android app. I have added sample for Plugin and XMPP sample for android.
+
 Please follow below steps to make openfire plguin.
 
 With the help of plugin you can communicate with database using xmpp.

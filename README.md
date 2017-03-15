@@ -11,7 +11,7 @@ With the help of plugin you can communicate with database using xmpp.
 Need to install openfire on your local machine or remote.
 Please follow this link to get it done.
 
-* [Download Openfire] (http://download.igniterealtime.org/openfire/docs/latest/documentation/install-guide.html) from here.
+* [Download Openfire] (http://download.igniterealtime.org/openfire/docs/latest/documentation/install-guide.html/) from here.
 
 
 1. Import Openfire Source to eclipse.
@@ -19,7 +19,7 @@ Openfire project need a path of some libraries that are present in lib folder.
 
 Please follow this video to include all libraries to openfire.
 
-* [Download Openfire] (https://www.youtube.com/watch?v=KlMaBplFbuQ) from here.
+* [Download Openfire] (https://www.youtube.com/watch?v=KlMaBplFbuQ/) from here.
 
 2. Import openfire plugin sample to eclipse then add openfire source to its build path.
 
@@ -99,7 +99,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 #Authors
 
-[Saveen Dhiman] (https://github.com/saveendhiman) original Author
+[Saveen Dhiman] (https://github.com/saveendhiman/) original Author
 
 
 [Donate $5]: 		https://www.paypal.me/saveendhiman/5

@@ -11,7 +11,7 @@ With the help of plugin you can communicate with database using xmpp.
 Need to install openfire on your local machine or remote.
 Please follow this link to get it done.
 
-* [Download Openfire] (http://download.igniterealtime.org/openfire/docs/latest/documentation/install-guide.html/) from here.
+* [Download Openfire] from here.
 
 
 1. Import Openfire Source to eclipse.
@@ -19,24 +19,19 @@ Openfire project need a path of some libraries that are present in lib folder.
 
 Please follow this video to include all libraries to openfire.
 
-* [Download Openfire] (https://www.youtube.com/watch?v=KlMaBplFbuQ/) from here.
+* [Configure Openfire] from here.
 
 2. Import openfire plugin sample to eclipse then add openfire source to its build path.
 
-
 3. Now do one thing download openfire code from here.
 
-https://www.igniterealtime.org/downloads/source.jsp
+[Download Source Openfire] from here.
 
-4. Copy your plugin code to Go openfire source -> target -> openfire -> 
-
-Src -> plugins 
+4. Copy your plugin code to Go openfire source -> target -> openfire -> Src -> plugins 
 
 Paste it here inside this folder.
 
-
 Now compilation need to do this plugin.
-
 
 Go to command or you can make .bat file for compilation.
 
@@ -44,7 +39,7 @@ Go to this your Openfire Source folder.Then
 
 cd D:\Openfire\openfire
 
-ant -f build/build.xml clean openfire plugin -Dplugin=openfire
+`ant -f build/build.xml clean openfire plugin -Dplugin=openfire`
 
 Write this command your command line.It compile your plguin.Now your plugin jar file created in 
 
@@ -99,10 +94,10 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 #Authors
 
-[Saveen Dhiman] (https://github.com/saveendhiman/) original Author
+[Saveen Dhiman] original Author
 
 
-[Donate $5]: 		https://www.paypal.me/saveendhiman/5
+[Donate $5]: 		  https://www.paypal.me/saveendhiman/5
 [Donate $10]:  		https://www.paypal.me/saveendhiman/10
 [Donate $15]:  		https://www.paypal.me/saveendhiman/15
 [Donate $25]:  		https://www.paypal.me/saveendhiman/25
@@ -110,5 +105,11 @@ Unless required by applicable law or agreed to in writing, software distributed 
 [Donate $100]: 		https://www.paypal.me/saveendhiman/100
 [Donate $2799]: 	https://www.paypal.me/saveendhiman/2799
 
+[Saveen Dhiman]:  https://github.com/saveendhiman
 
+[Download Openfire]: http://download.igniterealtime.org/openfire/docs/latest/documentation/install-guide.html
+
+[Configure Openfire]: https://www.youtube.com/watch?v=KlMaBplFbuQ
+
+[Download Source Openfire]:  https://www.igniterealtime.org/downloads/source.jsp
 

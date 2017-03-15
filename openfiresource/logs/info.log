@@ -1,0 +1,111 @@
+2016.04.01 17:17:30 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.04.01 17:17:30 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.1 [Apr 1, 2016 5:17:30 PM]
+2016.04.01 17:34:04 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.04.01 17:34:05 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.1 [Apr 1, 2016 5:34:05 PM]
+2016.04.01 17:34:05 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.04.01 17:34:05 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.04.01 17:35:00 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.04.01 17:35:00 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.1 [Apr 1, 2016 5:35:00 PM]
+2016.04.01 17:35:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.04.01 17:35:01 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.04.01 17:35:16 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.04.01 17:35:17 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.1 [Apr 1, 2016 5:35:17 PM]
+2016.04.01 17:35:17 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.04.01 17:35:17 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.04.01 17:37:33 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.04.01 17:37:34 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.1 [Apr 1, 2016 5:37:34 PM]
+2016.04.01 17:37:34 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.04.01 17:37:34 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.04.01 17:37:34 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console listening at http://user-pc:9090
+2016.04.01 17:46:27 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.04.01 17:46:28 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.1 [Apr 1, 2016 5:46:28 PM]
+2016.04.01 17:46:28 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.04.01 17:46:28 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.04.01 17:46:29 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console listening at http://user-pc:9090
+2016.04.01 17:49:23 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.04.01 17:49:24 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.1 [Apr 1, 2016 5:49:24 PM]
+2016.04.01 17:49:24 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.04.01 17:49:24 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.04.01 17:49:24 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console listening at http://user-pc:9090
+2016.04.01 17:50:40 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.04.01 17:50:40 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.1 [Apr 1, 2016 5:50:40 PM]
+2016.04.01 17:50:41 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.04.01 17:50:41 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.04.01 17:54:38 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.04.01 17:54:39 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.1 [Apr 1, 2016 5:54:39 PM]
+2016.04.01 17:54:39 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.04.01 17:54:39 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.04.01 17:54:58 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.04.01 17:54:58 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.1 [Apr 1, 2016 5:54:58 PM]
+2016.04.01 17:54:59 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.04.01 17:54:59 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.04.01 18:09:43 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.04.01 18:09:44 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.1 [Apr 1, 2016 6:09:44 PM]
+2016.04.01 18:09:45 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.04.01 18:09:45 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.04.04 13:02:14 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.04.04 13:02:16 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.1 [Apr 4, 2016 1:02:16 PM]
+2016.04.04 13:02:17 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.04.04 13:02:17 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.04.04 17:57:05 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.04.04 17:57:07 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.1 [Apr 4, 2016 5:57:07 PM]
+2016.04.04 17:57:09 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.04.04 17:57:09 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.04.04 17:57:09 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console listening at http://user-pc:9090
+2016.04.04 18:12:47 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.04.04 18:12:47 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.1 [Apr 4, 2016 6:12:47 PM]
+2016.04.04 18:12:48 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.04.04 18:12:48 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.04.04 18:12:48 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console listening at http://user-pc:9090
+2016.04.04 18:16:15 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.04.04 18:16:15 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.1 [Apr 4, 2016 6:16:15 PM]
+2016.04.04 18:16:15 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.04.04 18:16:15 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.04.04 18:16:15 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console listening at http://user-pc:9090
+2016.04.04 18:34:40 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.04.04 18:34:41 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.1 [Apr 4, 2016 6:34:41 PM]
+2016.04.04 18:34:41 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.04.04 18:34:41 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.04.04 18:42:11 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.04.04 18:42:11 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.1 [Apr 4, 2016 6:42:11 PM]
+2016.04.04 18:42:11 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.04.04 18:42:11 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.04.04 18:54:30 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.04.04 18:54:31 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.1 [Apr 4, 2016 6:54:31 PM]
+2016.04.04 18:54:31 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.04.04 18:54:31 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.04.04 18:54:32 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.04.04 18:54:32 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.1 [Apr 4, 2016 6:54:32 PM]
+2016.04.04 18:54:33 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.04.04 18:54:33 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.04.04 18:55:01 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.04.04 18:55:01 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.1 [Apr 4, 2016 6:55:01 PM]
+2016.04.04 18:55:02 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.04.04 18:55:02 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.04.06 11:28:51 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.04.06 11:28:53 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.1 [Apr 6, 2016 11:28:53 AM]
+2016.04.06 11:28:54 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.04.06 11:28:54 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.04.06 11:28:54 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console listening at http://user-pc:9090
+2016.04.08 10:39:53 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.04.08 10:39:53 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.04.08 10:39:55 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.1 [Apr 8, 2016 10:39:55 AM]
+2016.04.08 10:39:55 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.1 [Apr 8, 2016 10:39:55 AM]
+2016.04.08 10:39:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.04.08 10:39:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.04.08 10:39:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.04.08 10:39:57 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.04.08 18:09:52 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.04.08 18:09:58 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.1 [Apr 8, 2016 6:09:58 PM]
+2016.04.08 18:10:02 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.04.08 18:10:02 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.04.08 18:10:02 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console listening at http://user-pc:9090
+2016.04.08 18:10:11 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for User
+2016.04.08 18:10:11 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Remote Users Existence
+2016.04.08 18:50:05 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2016.04.08 18:50:07 org.jivesoftware.openfire.XMPPServer - Openfire 4.0.1 [Apr 8, 2016 6:50:07 PM]
+2016.04.08 18:50:08 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Misses
+2016.04.08 18:50:08 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Favicon Hits
+2016.04.08 18:50:08 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console listening at http://user-pc:9090
+2016.04.08 19:04:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for User
+2016.04.08 19:04:44 org.jivesoftware.util.cache.CacheFactory - Created cache [org.jivesoftware.util.cache.DefaultLocalCacheStrategy] for Remote Users Existence

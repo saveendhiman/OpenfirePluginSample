@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/java"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Openfirenew"/>
+	<classpathentry kind="lib" path="D:/Saveen_Android/AndroidNew/Openfire/OpenfireAll/openfirenew/build/lib/merge/dom4j.jar"/>
+	<classpathentry kind="lib" path="D:/Saveen_Android/AndroidNew/Openfire/OpenfireAll/openfirenew/build/lib/merge/log4j.jar"/>
+	<classpathentry kind="lib" path="D:/Saveen_Android/AndroidNew/Openfire/OpenfireAll/openfirenew/build/lib/merge/shaj.jar"/>
+	<classpathentry kind="lib" path="D:/Saveen_Android/AndroidNew/Openfire/OpenfireAll/openfirenew/build/lib/merge/tinder.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Plugin configuration for the broadcast plugin.
+-->
+<plugin>
+    <class>org.jivesoftware.openfire.plugin.OpenfirePlugin</class>
+    <name>Openfire Plugin</name>
+    <description>Neeeded by Openfire.</description>
+    <author>st1ng</author>
+    <version>0.9</version>
+    <date>2/02/201</date>
+    <url>http://no.url</url>
+    <minServerVersion>3.9.0</minServerVersion>
+	    <licenseType>gpl</licenseType>
+    <databaseKey>openfire</databaseKey>
+    <databaseVersion>1</databaseVersion>
+    
+    <adminconsole>
+    </adminconsole>
+</plugin>
+

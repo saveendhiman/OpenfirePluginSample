@@ -1,0 +1,58 @@
+Please follow below steps to make openfire plguin.
+
+With the help of plugin you can communicate with database using xmpp.
+
+Need to install openfire on your local machine or remote.
+Please follow this link to get it done.
+
+http://download.igniterealtime.org/openfire/docs/latest/documentation/install-guide.html
+
+1. Import Openfire Source to eclipse.
+Openfire project need a path of some libraries that are present in lib folder.
+
+Please follow this video to include all libraries to openfire.
+https://www.youtube.com/watch?v=KlMaBplFbuQ
+
+2. Import openfire plugin sample to eclipse then add openfire source to its build path.
+
+
+3. Now do one thing download openfire code from here.
+
+https://www.igniterealtime.org/downloads/source.jsp
+
+4. Copy your plugin code to Go openfire source -> target -> openfire -> 
+
+Src -> plugins 
+
+Paste it here inside this folder.
+
+
+Now compilation need to do this plugin.
+
+
+Go to command or you can make .bat file for compilation.
+
+Go to this your Openfire Source folder.Then 
+
+cd D:\Openfire\openfire
+
+ant -f build/build.xml clean openfire plugin -Dplugin=openfire
+
+Write this command your command line.It compile your plguin.Now your plugin jar file created in 
+
+Openfire Source -> target -> openfire -> plugins
+
+** Upload this plugin to openfire console.
+
+
+5. Import XMPP_Studio android project in studio.
+Now try to test with add delete and update etc.
+
+Your entry is directly added deleted and updated from database using xmpp.
+
+
+Thanks
+
+
+
+

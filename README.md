@@ -1,557 +1,117 @@
-#Intro
-
-Kotlin is a new programming language for the JVM. It produces Java bytecode, supports Android and generates JavaScript. The latest version of the language is [Kotlin M5.3]("http://blog.jetbrains.com/kotlin/2013/06/kotlin-m5-3-idea-13-delegated-properties-and-more/")
-
-Kotlin project website is at [kotlin.jetbrains.org](http://kotlin.jetbrains.org).
-
-All the codes here can be copied and run on [Kotlin online editor](http://kotlin-demo.jetbrains.com/).
-
-Let's get started.
-
-#Basics
-- You do not need `;` to break statements.
-- Comments are similar to Java or C#, `/* This is comment */` for multi line comments and `// for single line comment`.
-- Unlike Java, you do not need to match your file name to your class name.
-- Like JavaScript, you can create functions outside classes. So there is no need to stuff your functions as static members of classes like what you do in C# or Java.
-- Kotlin has string templates, which is awesome. e.g. `"$firstName $lastName"` for simple variable name or `"${person.name} is ${1 * 2}"` for any expressions. You can still do the string concatenation if you like e.g. `"hello " + "world"`, but that means being stupid.
-- It has no tuple although Kotlin's data classes is an option to use in place of tuple.
-
-
-##Variables
-- There are two keywords for variable declaration, **var** and **val**.
-- Use **var** when the variable value is to be modified and **val** where the variable value will not change after first assigned.
-- This **val** is similar to **readonly** keyword in C# or **final** keyword in Java.
-- **val** variable must be initialized at declaration.
-- Unlike Java or C#, you declare the type of a variable after the name, e.g. `var firstName : String`
-- Number primitive types are as follows: Double, Float, Long, Int, Short, Byte. There is no automatic conversion between types. You have to explicitly convert them.
-- More primitive types: Char, String, Boolean.
-- All variable declarations in Kotlin must be initialized.
-- The keyword `void` common in Java or C# is called `Unit` in Kotlin.
-
-###Null
-
-In Kotlin you have to decide whether a variable can be assigned null or not. This applies to both primitives or class types. A nullable variable is marked by assigning ? after the type, e.g. `var firstName: String?`
-
-You can assign a value from not-nullable to nullable type without any problem.
-
-```kotlin
-fun main(args : Array<String>) { 
-    val firstName : String = "Adam"
-    val name : String? = firstName 
-    print("$name") 
-}
-```
-
-The other way around though requires that you declare that this nullable variable does not contain null at the point of assignment with !! operator (which pretty much declares : "I am sure this nullable variable is not null at this point")
-
-```kotlin
-fun main(args : Array<String>) { 
-    val name : String? = "Adam" 
-    val firstName : String = name!! 
-    print("$firstName") 
-}
-```    					
-					
-###Type inference
-
-Kotlin is pretty smart about inferring what type a variable is, whether it is primitives or class. This is similar to the var keyword in C#.
-
-```kotlin
-fun main(args : Array<String>) { 
-    val firstName = "Adam" 
-    val middle = 'c' 
-    val lastName = "Brown" 
-    val age = 15 
-    println("$firstName $middle $lastNameis $age") 
-}
-```							
-                            
-You will encounter in further examples of more capabilities of Kotlin's type inference.                            
-
-#Functions
-We are going to spend a considerable time in discussing function because it has many different forms and subtleties. Here is a list of facilities that Kotlin provides for functions
-
-- Single expression function.
-- Optional parameter.
-- Positional argument and named argument.
-- Variable argument.
-- Single expression function.
-- Function type.
-- Function literals.
-- Callable references.
-- Extension functions.
-- Infix function call.
-- Local function.
-- Closure.
-- Generic function.
-- Operator overloading.
-
-Below is an example of functions
-
-```kotlin
-fun main(args : Array<String>) { 
-    greet(englishGreeting()) 
-    greet(italianGreeting())
-} 
-
-fun greet(msg : String){ 
-    println(msg) 
-} 
-    
-fun englishGreeting() : String = "Hello world" 
-    
-fun italianGreeting() : String{ 
-    return "bon giorno" 
-}
-```					
-
-- Functions can exists on their own.
-- It is marked by **fun** keyword.
-- If a function returns value, you declare it after the function name.
-- `englishGreeting()` is a *single expression function*.
-- A void function such as `greet()` returns Unit type but you are not required to declare it.
-- All parameters in a Kotlin function are read only. You are actually not allowed to mark it with either `val` or `var` keyword.
-
-
-##Single expression function
+# Openfire Plugin Sample
 
-This is a shorthand form in defining a function when you only have a single expression to be executed.
-
-```kotlin
-fun main(args : Array<String>) {
-   val res = add(1,1)
-   show("$res")
-}
-
-
-fun add(a : Int, b : Int) = a + b
-fun show(msg : String) = println("$msg")
-```
-
-As you can see above, in a single expression function, the function return type is inferred. You can declare the return type if you want to such as below. 
-
-```kotlin
-fun main(args : Array<String>) {
-   val res = add(1,1)
-   show("$res")
-}
-
-
-fun add(a : Int, b : Int) : Int = a + b
-fun show(msg : String) : Unit = println("$msg")
-```
-
-
-##Optional parameters
-
-Kotlin allows you to assign default values for your parameters, making them optional. 
-
-```kotlin 
-fun main(args : Array<String>) {
-  show()
-  show("Good morning")
-}
-
-
-fun show (msg : String = "Hello World"){
-    println("$msg") 
-}
-```
-
-If you are mixing mandatory parameter and optional parameter, the mandatory parameters must be listed first.
-
-##Arguments
-
-```kotlin
-fun main(args : Array<String>) { 
-    greet(firstName = "Frasensco", lastName = "Merini") 
-    greet(lastName = "John", firstName = "Stamos") 
-    greet("Borat", "Ismail") 
-    greet("Crystal", lastName = "Stamos") 
-    call("Xavier", age = 20, location = "Portugal") 
-} 
-    
-fun greet(firstName : String, lastName : String){
-    println("Good morning $firstName $lastName") 
-} 
-    
-fun call(name : String, location : String, age : Int){ 
-    println("Call $name who lives at $location and he is $age old") 
-}
-```					
-				
-Kotlin allows positional argument, named argument and the mix between the two. When you mix named and positional argument, you must start with positional argument.
-
-###Variable arguments
-
-Use the keyword **vararg**.
-
-```kotlin
-fun main(args : Array<String>) {
-  names("John", "Adam", "Joy")
-}
+[![Twitter](https://img.shields.io/badge/Twitter-@saveendhiman-blue.svg?style=flat)](https://twitter.com/saveendhiman)
 
-fun names(vararg  names : String){
-  for(n in names){
-    println("$n")
-  }
-}
-```
-
-If **vararg** parameter is not the last parameter, named argument must be used to supply the function argument.
-
-```kotlin
-fun main(args : Array<String>) {
-  names("John", "Adam", "Joy", age = 20)
-}
-
-fun names(vararg  names : String, age : Int){
-  for(n in names){
-    println("$n is $age old")
-  }
-}
-```
-
-
-###vararg produces array of argument
-```kotlin
-fun main(args : Array<String>) {
-  names("John", "Adam", "Joy")
-}
-
-fun names(vararg  names : String){
-  println("Argument length is ${names.size}")
-  println("${names[0]}")
-  val nns : Array<String> = names
-  println("${nns[1]}")
-}
-```
-
-###Using array to supply variable arguments
-Use the * operator in front of the array variable
-
-```kotlin
-fun main(args : Array<String>) {
-  val n = array("John", "Adam", "Joy")
-  names(*n)
-}
-
-fun names(vararg  names : String){
-  println("Argument length is ${names.size}")
-  println("${names[0]}")
-  val nns : Array<String> = names
-  println("${nns[1]}")
-}
-``` 
-
-###Passing one varargs argument to another
-```kotlin
-fun main(args : Array<String>) {
-  val n = array("John", "Adam", "Joy")
-  fugitives(*n)
-}
-,  
-fun fugitives(vararg escapees: String){
-  names(*escapees) 
-}
-
-fun names(vararg  names : String){
-  println("Argument length is ${names.size}")
-  println("${names[0]}")
-  val nns : Array<String> = names
-  println("${nns[1]}")
-}
-```
-Since **vararg** creates an array, you simply use the * operator to pass one **vararg** to another.
-
-##Function Types and Function Literals
-
-A function type is a type consisted of a function signature and function return type that are separated by -> operator. In its simplest form, it looks as follows: 
-
-`() -> Unit`
-
-Above is a type for a function that takes no parameter and returns a Unit (void in other language parlance)
-
-`() -> String`
-
-Above is a type for a function that takes no parameter and return a String
-
-`(String) -> Unit`
-
-Above is a type for a function that takes a string and returns nothing.
-
-`(String, Float) -> Unit`
-
-Above is a type for a function that takes two parameters (String and Float) and returns nothing.
-
-Because a function type is just a type, it means that you can assign it to a variable, you can pass it as a function argument and you can return it from a function.
-
-###Different ways to write function literals
-
-```kotlin
-val m = { (x : String) -> println("$x") } 
-val n : (String) -> Unit = { x -> println("$x") } 
-val o : (String) -> Unit = { (x : String) -> println("$x") } 
-
-fun main(args : Array<String>) { 
-    m("good morning")
-    n("good morning") 
-    o("good morning") 
-}
-```
-
-Above code is an example of function literals. All `m`, `n` and `o` represent the same function.
-            		
-Below is a function that returns a function type
-
-```kotlin
-fun main(args : Array<String>) { 
-    val greet = greetingFrom("Cairo, Egypt") 
-    greet("Brown") 
-} 
+[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
-fun greetingFrom(location : String) : (String) -> Unit{ 
-    return { name -> println ("Hello $name from $location")}
-}
-```				
-	
-Below shows that you can specify a function type as an argument and supply it with function literal with corresponding function signature and return type.
+This is Openfire Custom plugin sample.It help to communicate between my mysql db and android app. I have added sample for Plugin and XMPP sample for android.
 
-```kotlin
-fun evening(): String = "Good Evening" 
-fun main(args : Array<String>){ 
-    say({ "good morning"}) 
-    say { val msg = "good afternoon" msg } 
-    say({evening()})
-} 
-
-fun say(greet : () -> String){ 
-    println("${greet()}") 
-}
-```
+Please follow below steps to make openfire plguin.
 
-##Callable references
+With the help of plugin you can communicate with database using xmpp.
 
-How about if you already have a function that you want to pass as a parameter? You prefix the function name with '::'
+Need to install openfire on your local machine or remote.
+Please follow this link to get it done.
 
-```kotlin
-fun main(args : Array<String>) {
- calcAndShow(10,10, ::add) //20
- calcAndShow(10,10, ::multiply) /100
- calcAndShow(10,19, { x, y -> x - y }) //-9
-}
-
-fun calcAndShow(a : Int, b : Int,  func : (a : Int, b : Int) -> Int){
- val result = func (a, b)
- println("$result")
-}
-
-fun add(a : Int, b : Int) : Int = a + b
-fun multiply (a : Int, b : Int) : Int = a * b
-```
-
-
-##Function expansion
-
-When you call a function which has a function type as the last argument, you can expand it by { }
-
-```kotlin
-fun main(args : Array<String>) {
-    val a =  calculate(1) { x -> 10 + x } //11
-    val b = calculate(2) { x -> 20 * x } //40
-
-    println("a = $a, b = $b")
-}
-
-fun calculate(a : Int,  calc : (Int) -> Int) : Int{
-    return calc(a)
-}
-```
-
-##Closure
-
-Kotlin support Closure as highlighted by the example below
-
-```kotlin
-fun main(args : Array<String>) {
-    val total = add(1)(2)
-    println("Total value is $total")
-}
-
-fun add(a : Int) : (Int) -> Int{
-    return { x -> a + x }
-}
-```
-
-##Local function
-
-You can declare a function inside a function. It will have access to the local variable at the parent function.
-```kotlin
-fun main(args : Array<String>){ 
-    accumulate() 
-} 
-
-fun accumulate(){
-    var i = 0 
-
-    fun add(){ 
-        i++ 
-    } 
-
-    for (i in 1..10){
-        add() 
-    } 
-
-    println("i is now $i") 
-}
-
-//It prints "i is now 10"
-```
-
-
-##Extension function
-
-Extension function enables a function to be accessed from the type function. It works in the form of __type.function__
-Inside the function, the keyword `this` refers to the instance. 
-
-For example
-```kotlin   
-fun Int.show(){
-    println("This number is $this")
-}
-    
-fun main(args : Array<String>){
-    3.show()
-}
-```
-
-Above example shows how the `Int` built in type has been enriched by `show` extension function. Notice the use of `this` keyword that refers to the `3` number.
-
-
-**Notice** You can extend a function on a nullable type and it will be accessible for both nullable and non nullable type. The reverse though does not apply.
-
-```kotlin
-fun Int?.show(){
-    println("This number is $this")
-}
- 
-fun Int.show2(){
-    println("This number is $this")
-}
+* [Download Openfire] from here.å
 
-fun main(args : Array<String>){
-    var number : Int? = null
-    number.show()
-    5.show()
-    //number.show2() will not compile
-}
-```
-
-    
-### Extension function expressed in function literals
-
-```kotlin
-val show = { Int.() -> println("This is number $this") }
-val add = { Int.(number : Int) : Int -> 
-    val now = this + number
-    now
-}
-
-fun main(args : Array<String>){
-    5.add(10).show()
-}
-```
-
-Both `show` and `add` extension functions are expressed in literal format. Please notice that `add` function returns an `Int`.
-
-    
-### Extension function in infix form
-```kotlin
-fun main(args : Array<String>) {
-   val res = 1 add 2
-   println("$res")
-}
-
-fun Int.add (one : Int) : Int = this + one
-```
-
-If the extension function only takes one argument, you can call them in infix form (you drop the . between the type and the function). So instead of `1.add(2)`, you can call it in the form of `1 add 2`. This makes certain constructs looks natural (more like an operator than a function call) and especially useful in construction DSL in Kotlin.
-
-##Variable arguments and function type argument
-
-`vararg` parameter can also be naturally combined with a function type parameter.
-
-```kotlin
-fun main(args : Array<String>) {
-  names("John", "Adam", "Joy"){ 
-    name  -> println ("$name")
-  }
-}
-
-fun names(vararg  names : String, print : (String) -> Unit){
-  for(n in names){
-   print(n)
-  }
-}
-```
-
-above code can also be expressed in this matter (using named argument)
-```kotlin
-
-fun main(args : Array<String>) {
-  names("John", "Adam", "Joy", print = {name  -> println ("$name")})
-}
-
-fun names(vararg  names : String, print : (String) -> Unit){
-  for(n in names){
-   print(n)
-  }
-}
-
-```
-
-#Control Structures
-
-
-##If statement
-
-Kotlin **if** statement should look familiar with other language
-
-```kotlin
-fun main(args : Array<String>) {
-  val total = 10
-  
-  if (total > 5){
-      println("$total is greater than 5") 
-  }else if (total > 10){
-      println("$total is greater than 10")
-  }else{
-      println("$total is less than 6")
-  }
-}
-
-```
-
-
-#About
-
-My name is Dody Gunawinata and I primarily develop using C#. I stumbled upon Kotlin last year as I was researching the way to write app for Android platform. I found the language easy to learn and easy read. I implemented Android Rivers, a fast River of News style RSS reader, in Kotlin. You can find the project at [GitHub]("https://github.com/dodyg/AndroidRivers")
-
-With Android Rivers, you will learn about:
-- Using SQLite database.
-- High performance XML parsing.
-- High performance JSON parsing.
-- Implementing a media player.
-- Writing Android Service.
-- Accessing Android Clipboard.
-- Fragments.
-- Implementing Holo theme in Android 2.2 above.
-- Using Library modules.
-- First class Outliner UI support.
-- Asynchronous operations.
-- Managing file system.
-- Creating custom dialogs.
-- Implementing Sliding Menu.
-- Asynchronous HTTP calls.
-- Integrating Android Java library.
-- Implementing Arabic language support.
+
+1. Import Openfire Source to eclipse.
+Openfire project need a path of some libraries that are present in lib folder.
+
+Please follow this video to include all libraries to openfire.
+
+* [Configure Openfire] from here.
+
+2. Import openfire plugin sample to eclipse then add openfire source to its build path.
+
+3. Now do one thing download openfire code from here.
+
+[Download Source Openfire] from here.
+
+4. Copy your plugin code to Go openfire source -> target -> openfire -> Src -> plugins 
+
+Paste it here inside this folder.
+
+Now compilation need to do this plugin.
+
+Go to command or you can make .bat file for compilation.
+
+Go to this your Openfire Source folder.Then 
+
+cd D:\Openfire\openfire
+
+`ant -f build/build.xml clean openfire plugin -Dplugin=openfire`
+
+Write this command your command line.It compile your plguin.Now your plugin jar file created in 
+
+Openfire Source -> target -> openfire -> plugins
+
+** Upload this plugin to openfire console.
+
+
+5. Import XMPP_Studio android project in studio.
+Now try to test with add delete and update etc.
+
+Your entry is directly added deleted and updated from database using xmpp.
+
+
+Thanks
+
+
+##DONATIONS
+
+This project needs you! If you would like to support this project's further development, the creator of this project or the continuous maintenance of this project, feel free to donate. Your donation is highly appreciated (and I love food, coffee and beer). Thank you!
+
+**PayPal**
+
+* **[Donate $5]**: Thank's for creating this project, here's a coffee (or some beer) for you!
+
+* **[Donate $10]**: Wow, I am stunned. Let me take you to the movies!ù
+
+* **[Donate $15]**: I really appreciate your work, let's grab some lunch!
+
+* **[Donate $25]**: That's some awesome stuff you did right there, dinner is on me!
+
+* **[Donate $50]**: I really really want to support this project, great job!
+
+* **[Donate $100]**: You are the man! This project saved me hours (if not days) of struggle and hard work, simply awesome!
+
+* **[Donate $2799]**: Go buddy, buy Macbook Pro for yourself!
+
+Of course, you can also choose what you want to donate, all donations are awesome!!
+
+
+#Start from
+
+minSdkVersion 14
+
+#LICENSE
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+#Authors
+
+[Saveen Dhiman] original Author
+
+
+[Donate $5]: 		  https://www.paypal.me/saveendhiman/5
+[Donate $10]:  		https://www.paypal.me/saveendhiman/10
+[Donate $15]:  		https://www.paypal.me/saveendhiman/15
+[Donate $25]:  		https://www.paypal.me/saveendhiman/25
+[Donate $50]: 		https://www.paypal.me/saveendhiman/50
+[Donate $100]: 		https://www.paypal.me/saveendhiman/100
+[Donate $2799]: 	https://www.paypal.me/saveendhiman/2799
+
+[Saveen Dhiman]:  https://github.com/saveendhiman
+
+[Download Openfire]: http://download.igniterealtime.org/openfire/docs/latest/documentation/install-guide.html
+
+[Configure Openfire]: https://www.youtube.com/watch?v=KlMaBplFbuQ
+
+[Download Source Openfire]:  https://www.igniterealtime.org/downloads/source.jsp
+
